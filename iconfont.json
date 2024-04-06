@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5683172",
+      "name": "打卡",
+      "font_class": "daqia",
+      "unicode": "e6ca",
+      "unicode_decimal": 59082
+    },
+    {
+      "icon_id": "7270887",
+      "name": "打卡",
+      "font_class": "clock",
+      "unicode": "e8ae",
+      "unicode_decimal": 59566
+    }
+  ]
+}

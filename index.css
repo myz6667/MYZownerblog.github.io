@@ -10,6 +10,7 @@
     height: 3.125rem;
     font-weight: 300;
     font-size: 1.5625rem; 
+    font-family: FanTi;
 }
 .container {
     width: 100%;
@@ -40,31 +41,19 @@
     height: 18.75rem;
     margin: 2.5rem auto;
 }
-.container > .content > .left > .excerpt > p {
-    border-left: .125rem blue solid;
-    font-size: 1.125rem;
-}
 .container > .content > .left > .excerpt > .excerptContent {
     margin-left: .9375rem;
     font-size: .75rem;
     list-style: circle;
 }
-.container > .content > .left > .excerpt > p > span {
-    margin-left: .625rem;
-}
+
 .container > .content > .left > .friendLink {
     box-sizing: border-box;
     width: 15.625rem;
     height: 25rem;
     margin: 2.5rem auto;
 }
-.container > .content > .left > .friendLink > p {
-    border-left: .125rem blue solid;
-    font-size: 1.125rem;
-}
-.container > .content > .left > .friendLink > p > span {
-    margin-left: .625rem;
-}
+
 .container > .content > .right {
     box-sizing: border-box;
     width: 27.5rem;
@@ -74,8 +63,32 @@
     width: 27.5rem;
     height: 5rem;
 }
+.container > .content > .right > .catalog > .date{
+    width: 27.5rem;
+    height: 2.5rem;
+    font-size: .8125rem;
+    text-align: center;
+    align-items: center;
+}
+
+.container > .content > .right > .catalog > .fontArea{
+    width: 27.5rem;
+    height: 2.5rem;
+    text-align: center;
+    align-items: center;
+    border-bottom: .0625rem gray solid;
+}
+.container > .content > .right > .catalog > .fontArea > span {
+    font-size: 2.1875rem;
+    font-family: FanTi;
+}
 .container > .content > .right > .essay {
     width: 27.5rem;
-    height: 38.75rem;
-
+    height: 25rem;
+}
+.container > .content > .right > .record > button{
+    font-size: .875rem;
+}
+.container > .content > .right > .record > span {
+    font-size: .9375rem;
 }

@@ -19,6 +19,10 @@ img{
     height: 100%;
     object-fit: cover;
 }
+@font-face {
+    font-family: FanTi;
+    src: url(./刻石录钢笔鹤体.ttf);
+}
 /* width大于1200px时的布局 */
 /* @media screen and (min-width: 1200px) {
     html,body{
@@ -33,3 +37,18 @@ img{
         font-size: 1.5em;
     }
 } */
+/* 标题tittle中的p */
+.pStyleForTittle{
+    width: 27.5rem;
+    font-size: 1.125rem;
+    border-left: .125rem blue solid;
+    font-size: .875rem;
+    font-weight: 300;
+    align-items: center;
+    font-family: FanTi;
+}
+/* 标题tittle中的span */
+.spanStyleForTittle{
+    margin-left: .625rem;
+    border-bottom: .0625rem gray solid;
+}
