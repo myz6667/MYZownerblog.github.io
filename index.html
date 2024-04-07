@@ -56,7 +56,7 @@
                     <p class="pStyleForTittle"><span class="spanStyleForTittle">每日打卡</span></p>
                     <!-- 打卡前的图标 -->
                     <button><span class="iconfont icon-clock"  @click="addCount"></span></button>
-                    <span>你已经连续打卡{{ recordNum }}天了</span>
+                    <span v-model="recordNum">你已经连续打卡{{ getCount() }}天了</span>
                     <!-- 打卡后的图标 -->
                     <!-- <span class="iconfont icon-daqia"></span> -->
                 </div>
