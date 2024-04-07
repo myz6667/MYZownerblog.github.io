@@ -1,5 +1,3 @@
-var count = 0;
-window.localStorage.setItem("recordNum",count);
 var recordVue = new Vue({
     el:"#record",
     data:{
@@ -7,9 +5,11 @@ var recordVue = new Vue({
     },
     methods:{
         addCount(){
-            count++;
-            recordNum = count;
-            window.localStorage.setItem("recordNum",count);
+            this.recordNum++;
+            window.localStorage.setItem("recordNum",this.recordNum);
+        },
+        getCount(){
+            return window.localStorage.getItem("recordNum");
         }
     },
 });
